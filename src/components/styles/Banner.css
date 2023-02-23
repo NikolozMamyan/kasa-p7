@@ -1,0 +1,62 @@
+.logo {
+  height: 70%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 68px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+.banner-links {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  font-size: 24px;
+  color: #ff6060;
+}
+a:hover {
+  text-decoration-line: underline;
+  color: red;
+}
+
+.banner {
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../../assets/IMG.png);
+  background-position: 50%;
+  background-size: cover;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  height: 220px;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 95%;
+  padding: 22px;
+  position: relative;
+}
+.banner_title {
+  color: #fff;
+  font-size: clamp(20px, 4vw, 48px);
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  .banner-links {
+    gap: 20px;
+  }
+  .logo {
+    height: 40px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .banner {
+    margin: 20px auto;
+    height: 120px;
+  }
+}

@@ -1,0 +1,51 @@
+.home_gallery {
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 50px;
+  width: 95%;
+}
+.map_card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+}
+.homme_card {
+  position: relative;
+  width: 30%;
+  height: 340px;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.appart {
+  width: 100%;
+  height: 100%;
+  filter: contrast(80%);
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 10px;
+}
+.appart:hover {
+  transform: scale(1.1);
+}
+h3 {
+  z-index: 20;
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  right: 20px;
+  font-weight: 500;
+  size: 18px;
+  line-height: 25.67px;
+  color: #ffffff;
+}

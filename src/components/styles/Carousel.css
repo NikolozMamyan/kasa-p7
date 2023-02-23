@@ -1,0 +1,39 @@
+.carousel {
+  background-position: 50%;
+  filter: contrast(80%);
+  background-size: cover;
+  border-radius: 25px;
+  display: flex;
+  height: 415px;
+  margin: 43px auto;
+  position: relative;
+  width: 95%;
+}
+.left {
+  cursor: pointer;
+  height: 20%;
+  left: 32px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 1;
+}
+.right {
+  cursor: pointer;
+  height: 20%;
+  right: 32px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 1;
+}
+.slidecount {
+  bottom: 25px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
