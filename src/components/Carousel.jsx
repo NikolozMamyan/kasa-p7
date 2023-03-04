@@ -16,11 +16,11 @@ function Carousel({slides}) {
         setCurrentIndex(newIndex)
     }
 return(
-    <section className="carousel" style={{backgroundImage: `url(${slides[currentIndex]})`}}>
+    <main className="carousel" style={{backgroundImage: `url(${slides[currentIndex]})`}}>
         <img  className='left' src={Left} alt='flecheG' onClick={GoToPrevious}/>
         <img className='right'src={Right} alt='flechD' onClick={GoToNext}/>
         <p className="slidecount">{currentIndex + 1} /{slides.length}</p>
-    </section>
+    </main>
 )
 }
 

@@ -49,3 +49,20 @@ h3 {
   line-height: 25.67px;
   color: #ffffff;
 }
+@media screen and (max-width: 1230px) {
+  .home_gallery {
+    gap: 50px;
+    padding: 25px 15px;
+    width: 100%;
+  }
+  .homme_card {
+    width: 46%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .homme_card {
+    width: 100%;
+    gap: 20px;
+    height: 100%;
+  }
+}

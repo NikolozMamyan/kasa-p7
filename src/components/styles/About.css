@@ -1,0 +1,25 @@
+.about_main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.montagne {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.montagneimg {
+  width: 95%;
+  border-radius: 25px;
+}
+.about {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .montagne {
+    margin: 20px auto;
+  }
+}

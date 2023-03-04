@@ -1,5 +1,4 @@
 import './styles/Banner.css'
-import Footer from './Footer'
 import HomeGallery from './HomeGallery'
 import Banner from './Banner'
 
@@ -11,7 +10,7 @@ function Home() {
         <div className='home'>
       <Banner/>
         <HomeGallery/>
-        <Footer/>
+        
     </div>
          ) 
      
