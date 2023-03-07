@@ -32,7 +32,7 @@ function About () {
                 {aboutDatas.map(data=> {
                     return(
                         <div key= {data.id} className='about_main'>
-                            <Collapse  title={data.title} content={data.content}/>
+                            <Collapse title={data.title} content={data.content}/>
                         </div>
                     )
                 })}

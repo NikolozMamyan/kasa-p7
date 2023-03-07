@@ -13,7 +13,7 @@ function Logement () {
     const description = dataProduct[0].description
     const equipments = dataProduct[0].equipments.map((item, index) => {
         return (
-<p key={index}>{item}</p>
+<p className="paragraphe" key={index}>{item}</p>
         )
         
     })
@@ -21,7 +21,6 @@ function Logement () {
     const location = dataProduct[0].location
     const rating = dataProduct[0].rating
     const image = dataProduct[0].host.picture
-   //// const equipments = dataProduct[0].equipments
     return (
         <section>
             <Carousel slides = {slides}/>

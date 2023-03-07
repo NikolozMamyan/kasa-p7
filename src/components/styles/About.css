@@ -1,6 +1,9 @@
 .about_main {
   margin-top: 30px;
   margin-bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .montagne {
   margin-top: 50px;
