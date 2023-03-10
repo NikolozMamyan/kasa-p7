@@ -24,6 +24,9 @@
   margin-left: 5px;
   margin-right: 5px;
 }
+.buttonab {
+  font-size: 24px;
+}
 .arrow_up {
   transform: rotate(180deg);
   animation-duration: 0.3s;
@@ -51,11 +54,23 @@
   margin-left: 5px;
   margin-right: 5px;
 }
+.abouttext {
+  color: #ff6060;
+
+  font-size: 24px;
+}
 .paragraphe {
   font-size: 18px;
   line-height: 10px;
 }
-
+@media screen and (max-width: 700px) {
+  .buttonab {
+    font-size: 18px;
+  }
+  .abouttext {
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 550px) {
   .collapse_product {
     display: flex;
@@ -70,6 +85,7 @@
     font-size: 12px;
     line-height: 17.11px;
   }
+
   .paragraphe {
     font-size: 12px;
     line-height: 10px;

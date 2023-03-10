@@ -27,12 +27,11 @@ function About () {
     return (
             <div className='banner-about'>
 				<div className='montagne'><img  className='montagneimg' src={logo} alt='montagne'/></div>
-            
             <main className='about'>
                 {aboutDatas.map(data=> {
                     return(
                         <div key= {data.id} className='about_main'>
-                            <Collapse title={data.title} content={data.content}/>
+                            <Collapse  titleAb={data.title} contentAb={data.content}/>
                         </div>
                     )
                 })}
