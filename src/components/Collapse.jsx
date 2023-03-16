@@ -16,7 +16,7 @@ function Collapse ({content, title, contentAb, titleAb}) {
             </div>   
             
             <div>{open && <div className={"textdesc" }>{content}
-            {<div className='abouttext'> {contentAb} </div>}</div>}
+                {<div className='abouttext'> {contentAb} </div>}</div>}
             </div>
             
 </div>

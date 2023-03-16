@@ -16,9 +16,14 @@
   font-weight: 500;
   color: #ff6060;
 }
-a:hover {
-  text-decoration-line: underline;
-  color: red;
+.nav-site {
+  color: #ff6060;
+  margin: auto 25px;
+  text-decoration: none;
+}
+
+.nav-menu.active {
+  border-bottom: 2px solid #ff6060;
 }
 
 .banner {
